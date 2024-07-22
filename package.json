@@ -85,7 +85,9 @@
     "utility-types": "^3.11.0",
     "weak-lru-cache": "^1.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
+  },
   "keywords": [],
   "description": ""
 }
