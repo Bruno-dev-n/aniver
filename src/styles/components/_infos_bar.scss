@@ -1,0 +1,38 @@
+
+@import'variables';
+.infos-bar{
+    padding: 16px 24px;
+    background-color: $textColor;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    &__infos{
+        gap: 40px;
+        display: flex;
+        
+        &__item{
+            font-size: 14px;
+            color: $secondaryTexColor;
+
+            b{
+                color:$secondaryTexColor;
+                display: block;
+                @media(max-width: 1024px){
+                    gap: 16px;
+                }
+            }
+        }
+    }
+    @media (max-width:640px) {
+        display: block;
+        &__infos{
+            display: block;
+            width: 100%;
+            text-align: center;
+            &__item{
+                margin: 4% auto;
+            }
+        }
+    }
+}
