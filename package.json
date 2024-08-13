@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build":"parcel build src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -51,6 +51,7 @@
     "js-yaml": "^4.1.0",
     "json-parse-even-better-errors": "^2.3.1",
     "json5": "^2.2.3",
+    "less": "^4.2.0",
     "lightningcss": "^1.25.1",
     "lightningcss-win32-x64-msvc": "^1.25.1",
     "lines-and-columns": "^1.2.4",
@@ -61,21 +62,23 @@
     "node-gyp-build-optional-packages": "^5.1.1",
     "node-releases": "^2.0.14",
     "nth-check": "^2.1.1",
-    "parcel": "^2.12.0",
     "parent-module": "^1.0.1",
     "parse-json": "^5.2.0",
     "picocolors": "^1.0.1",
     "picomatch": "^2.3.1",
+    "postcss": "^8.4.41",
     "posthtml": "^0.16.6",
     "posthtml-parser": "^0.10.2",
     "posthtml-render": "^3.0.0",
     "regenerator-runtime": "^0.13.11",
     "resolve-from": "^4.0.0",
     "safe-buffer": "^5.2.1",
+    "sass": "^1.77.8",
     "source-map": "^0.6.1",
     "source-map-js": "^1.2.0",
     "srcset": "^5.0.1",
     "stable": "^0.1.8",
+    "stylus": "^0.63.0",
     "supports-color": "^7.2.0",
     "term-size": "^2.2.1",
     "timsort": "^0.3.0",
@@ -86,7 +89,9 @@
     "weak-lru-cache": "^1.2.2"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0"
+    "@parcel/transformer-sass": "^2.12.0",
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.12.0"
   },
   "keywords": [],
   "description": ""
