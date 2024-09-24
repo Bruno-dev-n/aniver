@@ -53,7 +53,6 @@
     "json5": "^2.2.3",
     "less": "^4.2.0",
     "lightningcss": "^1.25.1",
-    "lightningcss-win32-x64-msvc": "^1.25.1",
     "lines-and-columns": "^1.2.4",
     "mdn-data": "^2.0.30",
     "micromatch": "^4.0.7",
